@@ -1,0 +1,308 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+     <link href="style.css" rel="stylesheet">
+     <link rel="stylesheet" href="bootstrap-icons/icons-1.5.0/font/bootstrap-icons.css">
+     
+     <title>Shoe Store</title>
+ </head>
+ <body>
+  <style>
+    *{
+        margin: 0;
+        padding: 0 ;
+    }
+    .demo {
+        height: 60vh;
+        width: 100%;
+        background-image: url("deg.jpg");
+        background-size: cover;
+    }
+    .demo model-viewer {
+        width: 100%;
+        height: 100%;
+    }
+    .btn-container {
+        position: absolute;
+        bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+</style>
+
+     <nav id="nav">
+         <div class="navTop">
+<div class="navItem">
+    <img src="logo/sneaker.jpg" width="100" alt="">
+</div>
+<div class="navItem">
+<div class="search">
+    <input type="text" placeholder="Search.." class="searchInput">
+    <i class="bi bi-search" width="20" height="20"></i>
+</div>
+</div>
+<div class="navItem">
+<span class="limitedOffer">
+    Limited Offer
+</span>
+
+</div>
+         </div>
+         <div class="navBottom">
+<h3 class="menuItem">AIR FORCE</h3>
+<h3 class="menuItem">JORDAN</h3>
+<h3 class="menuItem">BLAZER</h3>
+<h3 class="menuItem">ADDIDAS</h3>
+<h3 class="menuItem">NIKE</h3>
+         </div>
+     </nav>
+
+     <div class="slider">
+         <div class="sliderWrapper">
+             <div class="sliderItem">
+               <img src="shoes/whiteAirForce.png" alt="" class="sliderImg">
+               <div class="sliderBg"></div>
+               <h1 class="sliderTitle">AIR FORCE<br> NEW<br> SEASON</h1>
+               <h2 class="sliderPrice">$119</h2>
+               <a href="#product">
+                 <button class="buyButton">BUY NOW!</button>
+               </a>
+             </div>
+
+             <div class="sliderItem">
+                <img src="shoes/greenJordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">JORDAN<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                  <button class="buyButton">BUY NOW! </button>
+                </a>
+              </div>
+
+              <div class="sliderItem">
+                <img src="shoes/blackBlazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                  <button class="buyButton">BUY NOW! </button>
+                </a>
+              </div>
+
+              <div class="sliderItem">
+                <img src="shoes/blueAdidas.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ADIDAS<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                  <button class="buyButton">BUY NOW! </button>
+                </a>
+              </div>
+
+              <div class="sliderItem">
+                <img src="shoes/blueNike.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">NIKE<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                  <button class="buyButton">BUY NOW! </button>
+                </a>
+              </div>
+         </div>
+     </div>
+    
+<div class="features">
+  <div class="feature">
+    <i class="bi bi-truck featureIcon"></i>
+    <span class="featureTitle"></span> FREE SHIPPING</span>
+    <span class="featureDesc">Free worlwide shipping on aall orders</span>
+  </div>
+
+  <div class="feature">
+    <i class="bi bi-box-seam featureIcon"></i>
+    <span class="featureTitle"></span> 30 DAYS RETURN</span>
+    <span class="featureDesc">No question return and easy refund in 14 days</span>
+  </div>
+
+  <div class="feature">
+    <i class="bi bi-gift featureIcon"></i>
+    <span class="featureTitle"></span> GIFT CARDS</span>
+    <span class="featureDesc">Buy gift cards and use coupon codes easily</span>
+  </div>
+
+  <div class="feature">
+    <i class="bi bi-envelope featureIcon"></i>
+    <span class="featureTitle"></span> CONTACT US!</span>
+    <span class="featureDesc">Keep in touch via email and support system</span>
+  </div>
+</div>
+
+<div class="product" id="product">
+  <img src="shoes/whiteAirForce.png" alt="" class="productImg">
+  <div class="productDetails">
+    <h1 class="productTitle">AIR FORCE</h1>
+    <h2 class="productPrice">$199</h2>
+    <p class="productDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est non commodi 
+      quae dicta, quis facilis architecto, voluptatibus sequi consequuntur ab voluptates adipisci 
+      ullam molestias debitis quidem id, voluptate recusandae vel.</p>
+<div class="colors">
+  <div class="color"></div>
+  <div class="color"></div>
+</div>
+
+<div class="sizes">
+  <div class="size">42</div>
+  <div class="size">43</div>
+  <div class="size">44</div>
+</div>
+<button class="productButton">BUY NOW!</button>
+</div>
+
+<div class="payment">
+  <h1 class="payTitle">Personal Information</h1>
+  <label>Name and Surname</label>
+  <input type="text" class="payInput" placeholder="John Doe">
+  <label>Phone Number</label>
+  <input type="text" class="payInput" placeholder="+234 809 445 8790">
+  <label>Address</label>
+  <input type="text" class="payInput" placeholder="lead city university">
+
+  <h1 class="payTtile">Card Information</h1>
+  <div class="cardIcons">
+    <img src="card/visaCard.png" width="40" alt="" class="cardIcon">
+    <img src="card/masterCard.png" alt="" width="40" class="cardIcon">
+  </div>
+
+  <input type="password" class="payInput" placeholder="Card Number">
+  <div class="cardInfo">
+    <input type="text" class="payInput sm" placeholder="mm">
+    <input type="text" class="payInput sm" placeholder="yy">
+    <input type="text" class="payInput sm" placeholder="cvv">
+  </div>
+  <button class="payButton">Checkout!</button>
+  <span class="close">X</span>
+</div>
+</div>
+
+<div class="gallery">
+  <div class="galleryItem">
+<h1 class="galleryTitle">Be Yourself</h1>
+<img src="models/shoeModel1.jpg" alt="" class="galleryImg">
+  </div>
+
+  <div class="galleryItem">
+    <img src="models/model2.jpg" alt="" class="galleryImg">
+    <h1 class="galleryTitle">Never Give Up</h1>
+      </div>
+
+      <div class="galleryItem">
+        <h1 class="galleryTitle">Smile Always!</h1>
+        <img src="models/model3.jpg" alt="" class="galleryImg">
+          </div>
+
+</div>
+
+<div class="newSeason">
+<div class="nsItem">
+  <img src="models/shoeModel2.jpg"  alt="" class="nsImg">
+</div>
+
+<div class="nsItem">
+  <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+  <h1 class="nsTitle">New Season</h1>
+  <h1 class="nsTitle">New Collection</h1>
+  <a href="#nav">
+    <button class="nsButton">CHOOSE YOUR STYLE</button>
+  </a>
+</div>
+
+<div class="nsItem">
+  <img src="models/shoeModel3.jpg"  alt="" class="nsImg">
+</div>
+</div>
+
+
+<footer>
+  <div class="footerLeft">
+<div class="footerMenu">
+  <h1 class="fMenuTitle">About Us</h1>
+  <ul class="fList">
+    <li class="fListItem">Company</li>
+    <li class="fListItem">Contact</li>
+    <li class="fListItem">Careers</li>
+    <li class="fListItem">Affiliates</li>
+    <li class="fListItem">Stores</li>
+  </ul>
+</div>
+
+<div class="footerMenu">
+  <h1 class="fMenuTitle">Useful Links</h1>
+  <ul class="fList">
+    <li class="fListItem">Support</li>
+    <li class="fListItem">Refund</li>
+    <li class="fListItem">FAQ</li>
+    <li class="fListItem">Feedback</li>
+    <li class="fListItem">Stories</li>
+  </ul>
+</div>
+
+<div class="footerMenu">
+  <h1 class="fMenuTitle">Products</h1>
+  <ul class="fList">
+    <li class="fListItem">Air Force</li>
+    <li class="fListItem">Air Jordan</li>
+    <li class="fListItem">Blazer</li>
+    <li class="fListItem">Crater</li>
+    <li class="fListItem">Hippie</li>
+  </ul>
+</div>
+  </div>
+
+  <div class="footerRight">
+    <div class="footerRightMenu">
+      <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+      <div class="fMail">
+      <input type="text" placeholder="your@email.com" class="fInput">
+      <button class="fButton">Join!</button>
+      </div>
+    </div>
+
+    <div class="footerRightMenu">
+      <h1 class="fMenuTitle">Follow Us</h1>
+      <div class="fIcons">
+        <i class="bi bi-facebook fIcon"></i>
+        <i class="bi bi-twitter fIcon"></i>
+        <i class="bi bi-instagram fIcon"></i>
+        <i class="bi bi-whatsapp fIcon"></i>
+      </div>
+    </div>
+
+<div class="footerRightMenu">
+  <span class="copyright">@Lana Dev. All rights reserved. 2022.</span>
+</div>
+  </div>
+</footer> 
+<!--<div class="demo">
+  <model-viewer 
+         
+  id="model"src="fk2.glb" auto-rotate camera-controls 
+  environment-image="stadium.hdr"   animation-name="Running" autoplay 
+  seamless-poster shadow-intensity="1" camera-controls enable-pan
+    ar ar-modes="webxr scene-viewer quick-look">
+</model-viewer>
+
+<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" 
+src="fk2.glb" ar ar-modes="webxr scene-viewer quick-look" 
+environment-image="" poster="degree.webp" 
+seamless-poster shadow-intensity="1" camera-controls enable-pan></model-viewer>
+</div>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+-->
+     <script src="app.js"></script>
+     
+
+ </body>
+ </html>
